@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	height: 100%;
+	width: 100%;
+
+}
+
+
+p{
+	color: #555;
+	font-family: Roboto;
+	font-size: 12px;
+}
+.logo{
+	position: absolute;
+	
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.col-2{
+	flex-basis: 50%;
+	max-width: 500px;
+	max-height: 1000px;
+}
+.col-2 img{
+	max-width: 100%;
+	padding: 50px 0;
+	
+}
+.col-2 h1{
+
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px o;
+}
+
+.btn{
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 20px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+.btn:hover{
+	background: #563434;
+}
+
+.header{
+	background: url(images/bg.jpg) no-repeat 50% 50%;
+	display: table;
+	height: 600px;
+	width: 100%;
+	*/
+	
+}
+
+
+/*---- Brands-----*/
+.brands{
+	margin: 100px auto;
+	background: white;
+	margin: 100px;
+	padding: 10px;
+}
+.col-5{
+	width: 160px;
+}
+.col-5 img{
+	width: 100%;
+	cursor: pointer;
+	filter: grayscale(100%);
+}
+.col-5 img:hover{
+	filter: grayscale(0%);
+}
+
+
+
+@media only screen and (max-width: 600px){
+	.row{
+		text-align: center;
+	}
+	.col-2. .col-3, .col-4{
+		flex-basis: 100%;
+	}
+}
+
+.rectangle {
+	position: relative;
+	left: 550px;
+	top: 60px;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	height: 100px;
+	background: blue;
+	align-items: center;
+}
+
+.arrow {
+	position: relative;
+	
+}
